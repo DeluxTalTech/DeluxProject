@@ -1,4 +1,4 @@
-﻿using Abc.Data.Quantity;
+﻿using Abc.Data.Technician;
 using Abc.Domain.Common;
 
 namespace Abc.Domain.Quantity

@@ -1,5 +1,5 @@
 ﻿using Abc.Facade.Common;
-using Abc.Facade.Quantity;
+using Abc.Facade.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Abc.Tests.Facade.Quantity

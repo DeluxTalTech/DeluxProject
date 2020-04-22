@@ -1,5 +1,5 @@
 ﻿using Abc.Aids;
-using Abc.Data.Quantity;
+using Abc.Data.Technician;
 using Abc.Domain.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

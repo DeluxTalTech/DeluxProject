@@ -2,10 +2,11 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Abc.Aids;
-using Abc.Data.Quantity;
+using Abc.Data.Technician;
 using Abc.Domain.Quantity;
 using Abc.Infra;
-using Abc.Infra.Quantity;
+using Abc.Infra.Common;
+using Abc.Infra.DatabaseClasses;
 using Abc.Soft.Data;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using Microsoft.EntityFrameworkCore;

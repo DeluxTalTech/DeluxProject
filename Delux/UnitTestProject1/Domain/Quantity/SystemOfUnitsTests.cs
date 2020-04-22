@@ -1,4 +1,4 @@
-﻿using Abc.Data.Quantity;
+﻿using Abc.Data.Technician;
 using Abc.Domain.Common;
 using Abc.Domain.Quantity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

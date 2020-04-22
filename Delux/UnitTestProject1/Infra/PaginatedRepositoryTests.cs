@@ -1,12 +1,13 @@
 ﻿using Abc.Aids;
-using Abc.Data.Quantity;
 using Abc.Domain.Quantity;
 using Abc.Infra;
-using Abc.Infra.Quantity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Threading.Tasks;
+using Abc.Data.Technician;
+using Abc.Infra.Common;
+using Abc.Infra.DatabaseClasses;
 
 namespace Abc.Tests.Infra
 {

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Abc.Domain.Quantity;
-using Abc.Pages.Quantity;
+using Abc.Pages.Service;
 
 namespace Abc.Soft.Areas.Quantity.Pages.UnitTerms
 {

@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Abc.Infra.Quantity.MeasuresRepository">
-    <Position X="3.25" Y="5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
-      <FileName>Quantity\MeasuresRepository.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
   <Class Name="Abc.Infra.BaseRepository&lt;TDomain, TData&gt;" Collapsed="true">
     <Position X="10" Y="1" Width="1.5" />
     <TypeIdentifier>
@@ -41,49 +33,57 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Abc.Infra.UniqueEntityRepository&lt;TDomain, TData&gt;" Collapsed="true">
-    <Position X="1" Y="3.25" Width="1.5" />
+    <Position X="1.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UniqueEntityRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Abc.Infra.Quantity.MeasureTermsRepository" Collapsed="true">
-    <Position X="3.5" Y="3.25" Width="1.5" />
+  <Class Name="Abc.Infra.Service.MeasureTermsRepository" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
-      <FileName>Quantity\MeasureTermsRepository.cs</FileName>
+      <FileName>Service\MeasureTermsRepository.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Abc.Infra.Quantity.UnitFactorsRepository" Collapsed="true">
-    <Position X="5.25" Y="3.25" Width="1.5" />
+  <Class Name="Abc.Infra.Service.UnitFactorsRepository" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
-      <FileName>Quantity\UnitFactorsRepository.cs</FileName>
+      <FileName>Service\UnitFactorsRepository.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Abc.Infra.Quantity.UnitTermsRepository" Collapsed="true">
-    <Position X="7.25" Y="3.25" Width="1.5" />
+  <Class Name="Abc.Infra.Service.UnitTermsRepository" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
-      <FileName>Quantity\UnitTermsRepository.cs</FileName>
+      <FileName>Service\UnitTermsRepository.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Abc.Infra.Quantity.SystemsOfUnitsRepository" Collapsed="true">
-    <Position X="1.25" Y="5" Width="1.5" />
+  <Class Name="Abc.Infra.Technician.MeasuresRepository" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
-      <FileName>Quantity\SystemsOfUnitsRepository.cs</FileName>
+      <FileName>Technician\MeasuresRepository.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Abc.Infra.Quantity.UnitsRepository" Collapsed="true">
-    <Position X="5.25" Y="5" Width="1.5" />
+  <Class Name="Abc.Infra.Technician.SystemsOfUnitsRepository" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
-      <FileName>Quantity\UnitsRepository.cs</FileName>
+      <FileName>Technician\SystemsOfUnitsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Abc.Infra.Technician.UnitsRepository" Collapsed="true">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Technician\UnitsRepository.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>

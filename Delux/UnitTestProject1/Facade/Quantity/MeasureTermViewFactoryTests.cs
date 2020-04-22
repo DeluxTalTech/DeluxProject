@@ -1,7 +1,7 @@
 ﻿using Abc.Aids;
-using Abc.Data.Quantity;
+using Abc.Data.Service;
 using Abc.Domain.Quantity;
-using Abc.Facade.Quantity;
+using Abc.Facade.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Abc.Tests.Facade.Quantity

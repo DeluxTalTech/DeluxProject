@@ -2,8 +2,9 @@
  using System.Linq;
  using System.Linq.Expressions;
  using Abc.Aids;
- using Abc.Data.Quantity;
- using Abc.Infra.Quantity;
+ using Abc.Data.Service;
+ using Abc.Data.Technician;
+ using Abc.Infra.DatabaseClasses;
  using Microsoft.EntityFrameworkCore;
  using Microsoft.EntityFrameworkCore.Metadata;
  using Microsoft.EntityFrameworkCore.Metadata.Conventions;

@@ -1,5 +1,5 @@
 ﻿using Abc.Data.Common;
-using Abc.Infra.Quantity;
+using Abc.Infra.DatabaseClasses;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

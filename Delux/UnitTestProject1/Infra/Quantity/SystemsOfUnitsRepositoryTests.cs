@@ -1,8 +1,10 @@
 ﻿using System;
-using Abc.Data.Quantity;
+using Abc.Data.Technician;
 using Abc.Domain.Quantity;
 using Abc.Infra;
-using Abc.Infra.Quantity;
+using Abc.Infra.Common;
+using Abc.Infra.DatabaseClasses;
+using Abc.Infra.Technician;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

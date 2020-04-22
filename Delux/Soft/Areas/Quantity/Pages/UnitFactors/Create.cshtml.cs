@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Abc.Data.Quantity;
+using Abc.Data.Technician;
 using Abc.Domain.Quantity;
-using Abc.Pages.Quantity;
+using Abc.Pages.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 

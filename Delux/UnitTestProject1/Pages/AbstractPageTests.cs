@@ -1,7 +1,8 @@
-﻿using Abc.Data.Quantity;
+﻿using Abc.Data.Technician;
 using Abc.Domain.Quantity;
-using Abc.Facade.Quantity;
+using Abc.Facade.Technician;
 using Abc.Pages;
+using Abc.Pages.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Abc.Tests.Pages {

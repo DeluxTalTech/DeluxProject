@@ -12,8 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Technician\" />
-    <Folder Include="Service\" />
+    <Folder Include="Quantity\" />
   </ItemGroup>
 
 </Project>

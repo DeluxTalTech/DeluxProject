@@ -6,8 +6,10 @@ using Abc.Soft.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Abc.Infra.Quantity;
 using Abc.Domain.Quantity;
+using Abc.Infra.DatabaseClasses;
+using Abc.Infra.Service;
+using Abc.Infra.Technician;
 
 namespace Abc.Soft
 {
