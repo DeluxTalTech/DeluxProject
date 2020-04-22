@@ -1,44 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Abc.Infra.BaseRepository&lt;TDomain, TData&gt;" Collapsed="true">
-    <Position X="10" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AgYQAAAAAAAQAABAAAAAACAgAAEAAAAAGAAAAAACAAA=</HashCode>
-      <FileName>BaseRepository.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Abc.Infra.SortedRepository&lt;TDomain, TData&gt;" Collapsed="true">
-    <Position X="8" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAABAAAAAAAQAAAAAAAQAAgABAkAAAAAQAEAIAAAAA=</HashCode>
-      <FileName>SortedRepository.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Abc.Infra.FilteredRepository&lt;TDomain, TData&gt;" Collapsed="true">
-    <Position X="5.75" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAAAAAAAAAAEgAAAAAAAAAEBAASAAAAA=</HashCode>
-      <FileName>FilteredRepository.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Abc.Infra.PaginatedRepository&lt;TDomain, TData&gt;" Collapsed="true">
-    <Position X="2.25" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAgACAACAAEAAAAAAEAA0AAAAAAAAAAAAEgAAAAA=</HashCode>
-      <FileName>PaginatedRepository.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Abc.Infra.UniqueEntityRepository&lt;TDomain, TData&gt;" Collapsed="true">
-    <Position X="1.25" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>UniqueEntityRepository.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Abc.Infra.Service.MeasureTermsRepository" Collapsed="true">
     <Position X="3.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
@@ -84,6 +45,45 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
       <FileName>Technician\UnitsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Abc.Infra.Common.UniqueEntityRepository&lt;TDomain, TData&gt;" Collapsed="true">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\UniqueEntityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Infra.Common.PaginatedRepository&lt;TDomain, TData&gt;" Collapsed="true">
+    <Position X="2" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgACAACAAEAAAAAAEAA0AAAAAAAAAAAAEgAAAAA=</HashCode>
+      <FileName>Common\PaginatedRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Abc.Infra.Common.FilteredRepository&lt;TDomain, TData&gt;" Collapsed="true">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAEgAAAAAAAAAEBAASAAAAA=</HashCode>
+      <FileName>Common\FilteredRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Abc.Infra.Common.SortedRepository&lt;TDomain, TData&gt;" Collapsed="true">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAQAAAAAAAQAAgABAkAAAAAQAEAIAAAAA=</HashCode>
+      <FileName>Common\SortedRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Abc.Infra.Common.BaseRepository&lt;TDomain, TData&gt;" Collapsed="true">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgYQAAAAAAAQAABAAAAAACAgAAEAAAAAGAAAAAACAAA=</HashCode>
+      <FileName>Common\BaseRepository.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>

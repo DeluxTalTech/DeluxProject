@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Abc.Facade.Common.CommonTermView" Collapsed="true">
-    <Position X="6.5" Y="1.75" Width="1.5" />
+    <Position X="5.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Common\CommonTermView.cs</FileName>
@@ -22,7 +22,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Abc.Facade.Common.PeriodView" Collapsed="true">
-    <Position X="7.75" Y="0.75" Width="1.5" />
+    <Position X="6.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAA=</HashCode>
       <FileName>Common\PeriodView.cs</FileName>
@@ -35,46 +35,46 @@
       <FileName>Common\UniqueEntityView.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Abc.Facade.Quantity.UnitFactorView" Collapsed="true">
-    <Position X="9" Y="1.75" Width="1.5" />
+  <Class Name="Abc.Facade.Service.MeasureTermView" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Service\MeasureTermView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Facade.Service.UnitTermView" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Service\UnitTermView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Facade.Service.UnitFactorView" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAIAAAA=</HashCode>
-      <FileName>Quantity\UnitFactorView.cs</FileName>
+      <FileName>Service\UnitFactorView.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Abc.Facade.Quantity.MeasureTermView" Collapsed="true">
-    <Position X="5.5" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
-      <FileName>Quantity\MeasureTermView.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Abc.Facade.Quantity.UnitTermView" Collapsed="true">
-    <Position X="7.5" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
-      <FileName>Quantity\UnitTermView.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Abc.Facade.Quantity.MeasureView" Collapsed="true">
+  <Class Name="Abc.Facade.Technician.MeasureView" Collapsed="true">
     <Position X="0.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Quantity\MeasureView.cs</FileName>
+      <FileName>Technician\MeasureView.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Abc.Facade.Quantity.SystemOfUnitsView" Collapsed="true">
-    <Position X="2.25" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Quantity\SystemOfUnitsView.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Abc.Facade.Quantity.UnitView" Collapsed="true">
+  <Class Name="Abc.Facade.Technician.SystemOfUnitsView" Collapsed="true">
     <Position X="4" Y="4.25" Width="1.5" />
     <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Technician\SystemOfUnitsView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Facade.Technician.UnitView" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Quantity\UnitView.cs</FileName>
+      <FileName>Technician\UnitView.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

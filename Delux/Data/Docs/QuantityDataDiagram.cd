@@ -1,33 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Abc.Data.Quantity.MeasureData">
-    <Position X="0.5" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Quantity\MeasureData.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Abc.Data.Quantity.UnitData">
-    <Position X="2.75" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Quantity\UnitData.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Abc.Data.Quantity.SystemOfUnitsData">
-    <Position X="4.75" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Quantity\SystemOfUnitsData.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Abc.Data.Quantity.UnitFactorData">
-    <Position X="9.5" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAA=</HashCode>
-      <FileName>Quantity\UnitFactorData.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Abc.Data.Common.DefinedEntityData">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
@@ -56,25 +28,53 @@
       <FileName>Common\PeriodData.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Abc.Data.Quantity.UnitTermData">
-    <Position X="8" Y="4.75" Width="1.5" />
+  <Class Name="Abc.Data.Technician.MeasureData" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Quantity\UnitTermData.cs</FileName>
+      <FileName>Technician\MeasureData.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Abc.Data.Quantity.MeasureTermData">
-    <Position X="6" Y="4.75" Width="1.5" />
+  <Class Name="Abc.Data.Technician.SystemOfUnitsData" Collapsed="true">
+    <Position X="2.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Quantity\MeasureTermData.cs</FileName>
+      <FileName>Technician\SystemOfUnitsData.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Abc.Data.Quantity.CommonTermData">
-    <Position X="7" Y="2.5" Width="1.5" />
+  <Class Name="Abc.Data.Technician.UnitData" Collapsed="true">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Technician\UnitData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Data.Common.CommonTermData">
+    <Position X="6.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEAAAAAAAAAAAAAAAAAAACAAAAAAABAAAAAAAAAAA=</HashCode>
-      <FileName>Quantity\CommonTermData.cs</FileName>
+      <FileName>Common\CommonTermData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Data.Service.UnitFactorData" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Service\UnitFactorData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Data.Service.MeasureTermData" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\MeasureTermData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Data.Service.UnitTermData" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\UnitTermData.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
