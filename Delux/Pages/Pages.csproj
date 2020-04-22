@@ -16,4 +16,9 @@
     <ProjectReference Include="..\Infra\Infra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Technician\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
 </Project>

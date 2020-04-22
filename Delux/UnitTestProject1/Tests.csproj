@@ -25,7 +25,7 @@
     <ProjectReference Include="..\Facade\Facade.csproj" />
     <ProjectReference Include="..\Infra\Infra.csproj" />
     <ProjectReference Include="..\Pages\Pages.csproj" />
-    <ProjectReference Include="..\Soft\Soft.csproj" />
+    <ProjectReference Include="..\Soft\Delux.csproj" />
   </ItemGroup>
 
 </Project>

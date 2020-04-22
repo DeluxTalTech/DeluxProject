@@ -6,4 +6,9 @@
     <RootNamespace>Abc.Data</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Service\" />
+    <Folder Include="Technician\" />
+  </ItemGroup>
+
 </Project>

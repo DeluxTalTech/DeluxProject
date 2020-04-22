@@ -13,13 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Infra\Infra.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pages", "Pages\Pages.csproj", "{58688A15-9C68-43FF-AF8A-AEB1F92D079C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soft", "Soft\Soft.csproj", "{EA844288-77B3-4C17-85C2-C845A62FAE41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delux", "Soft\Delux.csproj", "{EA844288-77B3-4C17-85C2-C845A62FAE41}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "UnitTestProject1\Tests.csproj", "{89504183-34B9-4AE6-9992-26ABA46A3FC6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aids", "Aids\Aids.csproj", "{5527D608-27CB-4304-B24B-0BF0ABD8C965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{AD3CC677-6CE9-4479-BAF8-762527D88A59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{AD3CC677-6CE9-4479-BAF8-762527D88A59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,7 +12,7 @@ namespace Abc.Pages.Quantity
         protected internal readonly IMeasureTermsRepository terms;
         protected internal MeasuresPage(IMeasuresRepository r, IMeasureTermsRepository t) : base(r)
         {
-            PageTitle = "Measures";
+            PageTitle = "Tehnikud";
             Terms = new List<MeasureTermView>();
             terms = t;
         }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Soft</title>
+    <title>@ViewData["Title"] - Delux</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -21,31 +21,22 @@
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         @Html.DropDownNavigationMenuFor("Teenused",
-                            new Link("Marketing", "/Processes/Marketing"),
-                            new Link("CRM", "/Processes/CRM"),
-                            new Link("Recruiting", "/Processes/Recruiting"),
-                            new Link("Catalogs", "/Inventory/Catalogs"),
-                            new Link("Inventory", "/Inventory/Inventory"),
-                            new Link("Sales", "/Orders/Sales"),
-                            new Link("Purchases", "/Orders/Purchases"),
-                            new Link("Persons", "/Party/Persons"),
-                            new Link("Organizations", "/Party/Persons"))
-                        @Html.DropDownNavigationMenuFor("Tehnikud",
-                            new Link("Measures", "/Quantity/Measures"),
-                            new Link("Measure Terms", "/Quantity/MeasureTerms"),
-                            new Link("Systems Of Units", "/Quantity/SystemsOfUnits"),
-                            new Link("Units", "/Quantity/Units"),
+                            new Link("Teenused", "/Quantity/MeasureTerms"),
                             new Link("Unit Terms", "/Quantity/UnitTerms"),
-                            new Link("Unit Factors", "/Quantity/UnitFactors"),
-                            new Link("Currencies", "/Money/Currencies"),
-                            new Link("Countries", "/Party/Countries"),
-                            new Link("Roles", "/Party/Roles"),
-                            new Link("Products", "/Inventory/Products"),
-                            new Link("Calculator", "/Quantity/Calculator")
+                            new Link("Unit Factors", "/Quantity/UnitFactors")
                             )
+                            @Html.DropDownNavigationMenuFor("Tehnikud",
+                            new Link("Tehnikud", "/Quantity/Measures"),
+                                new Link("Systems Of Units", "/Quantity/SystemsOfUnits"),
+                            new Link("Units", "/Quantity/Units"),
+                                new Link("Currencies", "/Money/Currencies")
+                                )
                         @Html.DropDownNavigationMenuFor("Meist",
                             new Link("About", "/Index"),
-                            new Link("Privacy", "/Privacy"))
+                            new Link("Privacy", "/Privacy")
+                            )
+                        @Html.DropDownNavigationMenuFor("Hinnakiri")
+                        @Html.DropDownNavigationMenuFor("Kontakt")
                     </ul>
                 </div>
             </div>
@@ -59,7 +50,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - Soft - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2020 - Delux - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 

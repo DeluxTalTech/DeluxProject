@@ -11,7 +11,7 @@ namespace Abc.Pages.Quantity
         public IEnumerable<SelectListItem> Measures { get; }
         protected internal MeasureTermsPage(IMeasureTermsRepository r, IMeasuresRepository m) : base(r)
         {
-            PageTitle = "Measure Terms";
+            PageTitle = "Teenused";
             Measures = createSelectList<Measure, MeasureData>(m);
         }
 
